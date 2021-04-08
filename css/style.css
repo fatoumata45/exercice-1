@@ -11,23 +11,37 @@ body {
 	font-size: 1.6rem;
 	line-height: 1.5;
 	background-color:var(--font-bis)
+
+}
+.container {
+	width: 100%;
+	max-width: 117rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 }
 
 .main-header .container {
 	display: flex;
 }
-
+span{
+    padding: 1.2rem;
+}
+.basse-line{
+    padding-top: 2rem;
+}
 .menu {
-    display: flex;
-	position: relative;
-    justify-content: space-between;   
+    display: flex; 
 }
 
 li{
     padding: 1rem;
+    
 } 
 
 .menu-link{
+    text-align: end;
     display: block;
     font-size: 1.4rem;
     line-height: 1.2;
@@ -37,23 +51,80 @@ li{
 }
 
 .home{
-	color: #fff;
 	background-image: url(../images/image/hero.jpg);
 	background-size: cover;
 	background-position: center;
+    height: 67.5rem;
+
+}
+.home-p{
+    color: var(--font-color);
 }
 h1{
     color: #F16822;
-    align-items: center;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 24.2rem;
+}
+.home-p{
+    font-size: 2rem;
+    margin-left: 27rem;
+    margin-right: 27rem;
+    text-align: center;
+    padding-top: 2.8rem;
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 10.6rem;
+}
+.service-p{
+    padding-left: 27.1rem;
+    padding-right: 27.1rem;
+    text-align: center;
 }
 .infos{
     background-image: url(../images/image/bokehback.jpg);
     background-size: cover;
 }
 .img-home{
-    margin-left: 7.rem;
+    margin-left: 7.5rem;
+}
+/*.services.container{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}*/
+
+.article-img{display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EEEEEE;
+    border-radius: 50%;
+
 }
 
-.infos.h2{
-    color: #F16822;
+.dernier-poster{
+    display:grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+}
+.titre-blog{
+    width: 40.0rem;
+    height: 60.0rem;
+    background-color:#FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+     
+}
+.statistique{
+    background-image: url(/images/image/title-bolg04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+opacity: 1;
 }
