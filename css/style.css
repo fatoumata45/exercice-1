@@ -248,7 +248,12 @@ h2{
     text-align: center;
     padding: 3rem 27rem 3rem 27rem;
 }
-
+@media(max-width: 76.7rem){
+	.service-p{
+		margin-left: 0rem;
+        margin-right: 0rem;
+	}
+}
 .article-img{
     margin-left: 9rem;
     width: 7.81rem;
@@ -282,6 +287,12 @@ h2{
     margin-right:27.12rem;
     margin-left: 27.12rem;
     color: var(--with);
+}
+@media(max-width: 76.7rem){
+	.infos-p{
+		margin-left: 0rem;
+        margin-right: 0rem;
+	}
 }
 /*dernier poster*/
 .container-poste{
@@ -357,6 +368,14 @@ p.blog-p{
     justify-content: space-between;
     padding-bottom: 12.63rem; 
 }
+@media(max-width: 76.7rem){
+	.facts{
+		margin-left: 0rem;
+        margin-right: 0rem;
+        display: block;
+        gap: 1rem;
+	}
+}
 ul.facts{
     padding-bottom: 12rem;
 }
@@ -388,6 +407,13 @@ ul.facts{
     margin-left:36rem;
     font-size: 1.5rem;
     color: var(--with); 
+}
+@media(max-width: 76.7rem){
+	.portrait-p{
+		margin-left: 0rem;
+        margin-right: 0rem;
+    
+	}
 }
 .portrait-img{
     padding-bottom: 7.5rem;
@@ -437,9 +463,27 @@ ul.facts{
     width: 8rem;
     margin-right: 1rem;
 }
+@media(max-width: 76.7rem){
+	.list-footer{
+		margin-left: 0rem;
+        margin-right: 0rem;
+        display:list-item;
+        color: var(--with);
+	}
+}
+
 .list-footer a{
     text-decoration: none;
     color: var(--with);
+}
+@media(max-width: 76.7rem){
+	.list-footer a{
+		margin-left: 0rem;
+        margin-right: 0rem;
+        display:list-item;
+        color: var(--with);
+        text-decoration: none;
+	}
 }
 .texte{
     color: var(--with);
@@ -461,10 +505,11 @@ h4{
 	}
 }
 @media(max-width: 76.7rem){
-	h4{
+	.list-footer h4{
 		align-items: flex-start;
 	} 
 }
+
 .texte-tags{
     color:var(--with);
     display:grid ;
@@ -501,6 +546,14 @@ address img{
 .bas{
     display: flex;
     
+}
+@media(max-width: 76.7rem){
+	.bas{
+		margin-left: 0rem;
+        margin-right: 0rem;
+        display:list-item;
+        margin-bottom: 1rem;
+	}
 }
 .face-book{
     margin-right: 1.62rem;
