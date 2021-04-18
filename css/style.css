@@ -390,7 +390,7 @@ ul.facts{
 .portrait{
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/images/image/rect.jpg);
+    background-image:url(/images/image/rect.jpg);
 }
 
 .nom{
