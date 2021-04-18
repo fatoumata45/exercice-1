@@ -349,12 +349,12 @@ p.blog-p{
 }
 /* section statique*/
 .statistique{
-    background-image: url(/images/image/title-bolg04.png);
+    background-image:url(/images/image/title-bolg04.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center; 
     visibility: var(--with); 
-    opacity: 1;
+    
 }
 
 .sta{
