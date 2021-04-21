@@ -8,7 +8,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="/css/fonts.css">
+
 	<link rel="stylesheet" href="css/style.css">
 
 	<title>Ubiquity</title>
@@ -17,12 +17,11 @@
 <body>
 	<header class="main-header">
 		<div class="container">
-
+			<div class="logo">
+				<img src="images/icone/LOGO.svg">
+				<p class="base-line">Ubiquity<span class="titre-span">Professionnal web UI</span></p>
+			</div>
 			<nav class="main-nav">
-				<div class="logo">
-					<img src="images/icone/LOGO.svg">
-					<p class="base-line">Ubiquity<span class="titre-span">Professionnal web UI</span></p>
-				</div>
 				<button class="toggle-menu" aria-expanded="false" aria-controls="menu">Menu</button>
 				<ul id="menu" class="menu" role="list" hidden>
 					<li class="menu-home"><a href="#" class="menu-link">HOME</a></li>
@@ -40,14 +39,14 @@
 			<h1>At Ubiquity,We care</h1>
 
 			<ul class="fleche">
-				<li class="gauche"><img src="/images/icone/arrow-circle-left.svg"><a href="#"></a></li>
-				<li class="droite"><img src="/images/icone/arrow-circle-rigth.svg"><a href="#"></a></li>
+				<li class="gauche"><img src="images/icone/arrow-circle-left.svg"><a href="#"></a></li>
+				<li class="droite"><img src="images/icone/arrow-circle-rigth.svg"><a href="#"></a></li>
 			</ul>
 			<p class="home-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eligendi unde dolorem
 				vel accusamus molestiae expedita esse illum, obcaecati voluptate ratione dicta.</p>
-			<article>
+			
 				<ul class="point">
-					<li class="button-noir"></li>
+					<button><li class="button-noir"></li></button>
 					<li class="button-orange"></li>
 					<li class="button-noir"></li>
 					<li class="button-noir"></li>
@@ -56,7 +55,7 @@
 					<li class="button-noir"></li>
 					<li class="button-noir"></li>
 				</ul>
-			</article>
+		
 		</div>
 	</section>
 
@@ -83,19 +82,19 @@
 				</article>
 
 				<article class="blogging">
-					<figure class="article-img"><img src="images/icone/notes1.svg" alt="#"></figure>
+					<figure class="article-img"><img src="images/icone/notes1.svg" alt="photo"></figure>
 					<h3>Blogging</h3>
 					<p> Lorem.Give a brief description of the feature that you are promoting. Keep it short so that its
 						easy for people read.</p>
 				</article>
-				<article class="social-media">
-					<figure class="article-img"><img src="images/icone/star.svg" alt="#"></figure>
+				<article class="blogging">
+					<figure class="article-img"><img src="images/icone/star.svg" alt="star"></figure>
 					<h3>Social Media</h3>
 					<p>Lorem Lorem.ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores eum autem quod
 						quasi.</p>
 				</article>
-				<article class="SEO">
-					<figure class="article-img"><img src="images/icone/bolt.svg" alt="#"></figure>
+				<article class="blogging">
+					<figure class="article-img"><img src="images/icone/bolt.svg" alt="photo"></figure>
 					<h3>SEO</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores eum autem quod quasi
 						beatae .</p>
@@ -112,9 +111,9 @@
 				<li class="button-orange"></li>
 				<li class="button-blanc"></li>
 			</ul>
-			<p class="infos-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 			Laboriosam eum minima fugiat
+			<p class="infos-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.Laboriosam eum minima fugiat
 				commodi et eligendi cum dolorum totam quisquam eveniet modi, consequatur,atque. </p>
-			<picture class="infos-img"><img src="/images/image/home.jpg"></picture>
+			<picture class="infos-img"><img src="images/image/home.jpg"></picture>
 		</div>
 	</section>
 
@@ -125,7 +124,7 @@
 				<li class="button-orange"></li>
 				<li class="button-noir"></li>
 			</ul>
-			<p class="dernier-post-p">Lorem Lorem, ipsum.dolor sit amet consectetur adipisicing 	animi iste quidem illoimpedit.</p>
+			<p class="dernier-post-p">Lorem Lorem, ipsum.dolor sit amet consectetur adipisicing animi iste quidem illoimpedit.</p>
 				
 			<div class="container-poste">
 				<article class="titre-blog">
@@ -242,25 +241,25 @@
 				<div class="footer-tags">
 					<h4>Tags</h4>
 					<ul class="texte-tags">
-						<li>Insider</li>
-						<li>Chech</li>
-						<li>Demo</li>
-						<li>Office</li>
-						<li>Work</li>
-						<li>post</li>
-						<li>Management</li>
+						<li><a href="Insider">Insider</a></li>
+						<li><a href="chech">Chech</a></li>
+						<li><a href="Demo">Demo</a></li>
+						<li><a href="office">Office</a></li>
+						<li><a href="work">Work</a></li>
+						<li><a href="post">post</a></li>
+						<li><a href="management">Management</a></li>
 					</ul>
 				</div>
 				<div class="footer-list">
 					<h4>Ubiquity</h4>
 					<address>
 						<ul class=texte>
-							<li class="localisation"> <img src="/images/icone/map-marker.svg" alt="Adresse"> <a
+							<li class="localisation"> <img src="images/icone/map-marker.svg" alt="Adresse"> <a
 									href="https://maps.google.fr/" target="_blank" class="localisation-link"> 2499 Bee
 									Street, Bear Lake <span class="span-adress">Michigan 49614</a> </span></li>
-							<li class="telephone"><img src="/images/icone/phone.svg" alt="Telephone" target="_blank"> <a
+							<li class="telephone"><img src="images/icone/phone.svg" alt="Telephone" target="_blank"> <a
 									href="tel:+2318648100" class="phone-link"> 231-864-8100</a></li>
-							<li class="mail"> <img src="/images/icone/envelope.svg" alt="E-mail" target="_blank"><a
+							<li class="mail"> <img src="images/icone/envelope.svg" alt="E-mail" target="_blank"><a
 									href="mailto: Hello@domainname.com">Hello@domainname.com </a></li>
 						</ul>
 					</address>
@@ -270,9 +269,9 @@
 			<article class="footer-bas">
 				<p class="bas-p">© 2019 Ubiquity . All Rights Reserved.</p>
 				<ul class="bas">
-					<li class="face-book"> <img src="/images/icone/icons8-facebook.svg"></li>
-					<li class="twiter"> <img src="/images/icone/icons8-twitter.svg"></li>
-					<li class="google+"> <img src="/images/icone/icons8-google-plus.svg"></li>
+					<li class="face-book"> <img src="images/icone/icons8-facebook.svg"></li>
+					<li class="twiter"> <img src="images/icone/icons8-twitter.svg"></li>
+					<li class="google+"> <img src="images/icone/icons8-google-plus.svg"></li>
 				</ul>
 			</article>
 
